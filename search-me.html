@@ -87,7 +87,52 @@ function search_animal() {
 		}
 	  </script>
    <hr>
-   <p> دامنه وب سایتمان در دامنه تازه یعنی وب <var> Web3.0</var> است  <a href='mailto:amirhoseinyou.898@gmail.com'> درنوشتار این پست همکار شوید </a></p>
+   <p>   کمک در پروژه <a href='https://github.com/Am2021Html/harvard-fans/blob/main/search-me.html'> میتوانید شرکت کنید </a>     دامنه وب سایتمان در دامنه تازه یعنی وب <var> Web3.0</var> است  <a href='mailto:amirhoseinyou.898@gmail.com'> درنوشتار این پست همکار شوید </a></p>
+    <hr>
+	<p> مسابقات در این وبگاه </p>
+	 <centeR>
+	   <div class="mybox">
+ <h2 id="Result">لطفا کمی صبر نمایید ..</h2>
+</div>
+
+<script>
+
+// تاریخ وساعتی که قراره بهش برسیم
+var countDownDate = new Date("May 16, 2022 16:49:50").getTime();
+
+var x = setInterval(function() {
+
+  // دریافت تاریخ و ساعت امروز
+  var now = new Date().getTime();
+    
+  // بدست آوردن فاصله بین تاریخ امروز تا تاریخی که قراره بهش برسیم
+  var distance = countDownDate - now;
+    
+  // محاسبات روز ، ساعت ، دقیقه و ثانیه
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // چاپ کردن تایمر در خروجی
+  document.getElementById("Result").innerHTML = days + "روز " + hours + "ساعت "
+  + minutes + "دقیقه " + seconds + "ثانیه ";
+    
+  // اگه به تاریخی که خواستیم رسیده بودیم پیغام میده که فرصت تمام شده
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("Result").innerHTML = "فرصت تمام شده";
+  }
+}, 1000);
+
+</script>
+<p>برنده این مسابقات هیچگونه مبلغی دریافت نمیکند و فقط این یک بازی انلاین است که شما میتوانید این وب سایت را هک کنید</p>
+ <tt>
+    نتایج خود را به ایمیل زیر ارسال کنید:
+	 <br/>
+	  Amirhoseinyou.898@gmail.com
+ </tt>
+	 </centeR>
    </body>
 </html>
 <style>
